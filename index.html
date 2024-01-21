@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <div class="sidebar-wrapper">
+        <div>
+            <div class="profile-card">
+                <img class="profile-image" src="./assets/profile-image.jpg" alt="">
+                <div class="profile-card-content-wrapper">
+                    <h2>İldiko Gaspar</h2>
+                    <p>@igaspar</p>
+                </div>
+            </div>
+            <nav>
+                <a class="nav-item" href="#">
+                    <img class="nav-icon" src="./assets/icon-general.svg" alt="">
+                    <p>General</p>
+                </a>
+                <a class="nav-item" href="#">
+                    <img class="nav-icon" src="./assets/icon-password.svg" alt="">
+                    <p>Password</p>
+                </a>
+                <a class="nav-item" href="#">
+                    <img class="nav-icon" src="./assets/icon-invitations.svg" alt="">
+                    <p>İnvitations</p>
+                </a>
+                <a class="nav-item active" href="#">
+                    <img class="nav-icon" src="./assets/icon-billing.svg" alt="">
+                    <p>Billing</p>
+                </a>
+                <a class="nav-item" href="#">
+                    <img class="nav-icon" src="./assets/icon-apps.svg" alt="">
+                    <p>Apps</p>
+                </a>
+
+            </nav>
+        </div>
+
+        <a class="nav-item" href="#">
+            <img class="nav-icon" src="./assets/icon-logout.svg" alt="">
+            <p>Log out</p>
+        </a>
+
+
+    </div>
+
+    <div class="main-wrapper">
+        <div class="main-left">
+            <h1>Billing</h1>
+            <div class="history-box">
+                <h3>Order History</h3>
+                <p>Manage billing information and view receips</p>
+            </div>
+            <div class="table-box">
+                <div class="table-row">
+                    <div class="table-column">
+                        <p class="column-title">Date</p>
+                    </div>
+                    <div class="table-column">
+                        <p class="column-title">Type</p>
+                    </div>
+                    <div class="table-column">
+                        <p class="column-title">Receipt</p>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column">
+                        <p class="columnt-text">Oct. 21,2021</p>
+                    </div>
+                    <div class="table-column">
+                        <p class="columnt-text">Pro Annual</p>
+                    </div>
+                    <div class="table-column">
+                        <button class="column-button">Download</button>
+                    </div>
+                </div>
+                <div class="table-row active-row">
+                    <div class="table-column">
+                        <p class="columnt-text">Oct. 21,2021</p>
+                    </div>
+                    <div class="table-column">
+                        <p class="columnt-text">Pro Annual</p>
+                    </div>
+                    <div class="table-column">
+                        <button class="column-button">Download</button>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column">
+                        <p class="columnt-text">Oct. 21,2021</p>
+                    </div>
+                    <div class="table-column">
+                        <p class="columnt-text">Pro Annual</p>
+                    </div>
+                    <div class="table-column">
+                        <button class="column-button">Download</button>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="table-column">
+                        <p class="columnt-text">Oct. 21,2021</p>
+                    </div>
+                    <div class="table-column">
+                        <p class="columnt-text">Pro Annual</p>
+                    </div>
+                    <div class="table-column">
+                        <button class="column-button">Download</button>
+                    </div>
+                </div>
+                <div class="table-row">
+                    <a class="load-text" href="#">Load more</a>
+                </div>
+            </div>
+            <div class="payment-box">
+                <h3>Payment Method</h3>
+                <p>Manage billing information and view receips</p>
+            </div>
+            <div class="payment-row">
+                <div class="payment-left-column">
+                    <img src="./assets/payment-method-visa.png" alt="">
+                    <p>Visa ending in 2255</p>
+                </div>
+                <button class="column-button">Remove</button>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="plan-box">
+                <p>Your plan</p>
+                <h4>Pro Annual</h4>
+                <p>Renews on Nov. 2021</p>
+                <button>Cancel Subscription</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
